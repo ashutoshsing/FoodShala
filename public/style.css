@@ -1,0 +1,61 @@
+/* CSS for front */
+/* Making the whole layout of the pages similar */
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(h2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.item1{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;
+	
+}
+h1{
+	font-size: 8rem;
+	color: black;
+	font-family: 'Lobster';
+	text-align: center;
+}
+
+.btn{
+	font-weight: 600px;
+	border-radius: 100px;
+	text-transform: uppercase;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+
+}
+.item2{
+	border-color: #F05F44;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+}
+.btn-lg:hover{
+	background-color: #ee4b08;
+	border-color: #b4755c;
+	justify-content: center;
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.navbar{
+	background-color: rgba(165, 55, 55, 0.000);
+	border-color: rgba(165, 55, 55, 0.000);
+
+}
+
+.footer{
+	align-content: flex-end;
+}
